@@ -36,3 +36,4 @@ api网址:https://www.visualcrossing.com/weather-api;<br>
 3.美其名曰:具有"强大"的纠错能力;<br>
 4.因为反复输入导致控制台被填满(划掉)<br>
 <br>
+![](https://github.com/Ming13417/WoC/blob/main/WoC/%E3%82%A2%E3%83%B3%E3%81%A8%E3%82%B0%E3%83%AC%E3%82%A2.jpg)  
