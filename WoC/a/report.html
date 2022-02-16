@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>天气</title>
+    <link type="text/css" rel="stylesheet" href="../css/report.css">
+    <link rel="shortcut icon" href="../shortcut.ico">
+</head>
+<body>
+    <div id="allContainer">
+    <header id="top">
+        <nav id="guide">
+            <ul>
+                <li><a href="../index.html">首页</a></li>
+                <li class="selected"><a href="a/report.html">天气</a></li>
+                <li><a href="play.html">乐子</a></li>
+                <li><a href="shadowverse.html">打牌</a></li>
+                <li><a href="me.html">作者</a></li>
+            </ul>
+        </nav>
+    </header>
+
+            <div id="seacher">
+                <input name="area" id="area" type="text" value="南京" title="输入功能不可用" onclick="if(value == defaultValue) {value=''} ">
+                <button id="click">查询</button>
+            </div>      <!--seacher div-->
+
+            <div id="NowWeather" title="sunny">
+                <section>
+                    最高溫度:<span class="data" id="maxTempData"></span><span>℃</span><br><br>
+                    最低溫度:<span class="data" id="minTempData"></span><span>℃</span><br><br>
+                    濕度:<span class="data" id="humData"></span><span>%</span><br><br>  
+                    风速:<span class="data" id="winSpeedData"></span><span>km/h</span><br><br>
+                    能见度:<span class="data" id="viewData" title="好"></span><span title="3-好 2-还不错 1-不太行 0-太差了">/3</span><br><br>
+                </section>
+            </div>      <!--NowWeather div-->
+
+                <div id="Warnning">
+                    <div id="WarnningRow1">
+                        <section class="leftw">
+                            <span id="tempWarn"></span>
+                        </section>
+                   
+                        <section class="rightw">
+                            <span id="humWarn"></span>
+                        </section>
+                    </div>
+
+                    <div id="WarnningRow2" >                   
+                        <section class="leftw">
+                            <span id="weaWarn"></span>
+                        </section>
+                        
+                        <section class="rightw">
+                            <span id="viewWarn"></span>
+                        </section>
+                    </div>
+                </div>          <!--Warning div-->
+
+           <div id="FuWeather">
+                   <p class="FuWeatherCell" id="FuCell1">
+                        <span id="FuCell1_min"></span>~<span id="FuCell1_max"></span>℃<br>
+                        <span id="FuCell1_day"></span>日
+                   </p>
+                   <p class="FuWeatherCell" id="FuCell2">
+                        <span id="FuCell2_min"></span>~<span id="FuCell2_max"></span>℃<br>
+                        <span id="FuCell2_day"></span>日
+                   </p>
+                   <p class="FuWeatherCell" id="FuCell3">
+                        <span id="FuCell3_min"></span>~<span id="FuCell3_max"></span>℃<br>
+                        <span id="FuCell3_day"></span>日
+                   </p>
+                   <p class="FuWeatherCell" id="FuCell4">
+                        <span id="FuCell4_min"></span>~<span id="FuCell4_max"></span>℃<br>
+                        <span id="FuCell4_day"></span>日
+                   </p>
+                   <p class="FuWeatherCell" id="FuCell5">
+                        <span id="FuCell5_min"></span>~<span id="FuCell5_max"></span>℃<br>
+                        <span id="FuCell5_day"></span>日
+                   </p>
+           </div>       <!--FuWeather div-->
+
+        <footer>
+            已到达世界终点
+        </footer>
+    </div>          <!-- allContainer div -->
+
+	<script type="text/javascript" src="../js/pinyin_dict_polyphone.js"></script>
+	<script type="text/javascript" src="../js/pinyin_dict_withtone.js"></script>
+    <script type="text/javascript" src="../js/pinyinUtil.js"></script>
+    <script type="text/javascript" src="../js/report.js"></script>
+</body>
+</html>
