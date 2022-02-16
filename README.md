@@ -22,7 +22,6 @@ fff来自:BV1Lr4y1Y78n<br>
 过年好来自:BV1wi4y1973z(很阴间，谨慎观看)<br>
 其他网上搜的。<br>
 <br>
-<br>
 api网址:https://www.visualcrossing.com/weather-api;<br>
 <br>
 用的原生JS;<br>
