@@ -1,7 +1,7 @@
 
 ***低技术力警告***<br>
 <br>
-##_2022年1月13日_<br>
+##_2022年2月13日_<br>
 1.根据城市名字查询天气: 外壳(√) 功能(×);<br>
 2.主页有未来五日天气预测(√);<br>
 3.首页轮播图(√);<br>
@@ -26,7 +26,7 @@ api网址:https://www.visualcrossing.com/weather-api;<br>
 <br>
 用的原生JS;<br>
 <br>
-##_2022年1月16日_<br>
+##_2022年2月16日_<br>
 <br>
 添加了将汉字转换为拼音的功能并以此成功实现查询功能;<br>
 <br>
@@ -35,5 +35,10 @@ api网址:https://www.visualcrossing.com/weather-api;<br>
 2.一些与城市名同音的字组也可以查询到一些城市;<br>
 3.美其名曰:具有"强大"的纠错能力;<br>
 4.因为反复输入导致控制台被填满(划掉)<br>
+<br>
+##2022年2月26日<br>
+1.修复了「README」.md」文件日期的错误的bug;<br>
+2.修复了首页ico文件无法显示的bug;<br>
+3.为md文件图片添加了描述;<br>
 <br><br><br>
-![](https://github.com/Ming13417/WoC/blob/main/WoC/%E3%82%A2%E3%83%B3%E3%81%A8%E3%82%B0%E3%83%AC%E3%82%A2.jpg)  
+![安和古雷亚](https://github.com/Ming13417/WoC/blob/main/WoC/%E3%82%A2%E3%83%B3%E3%81%A8%E3%82%B0%E3%83%AC%E3%82%A2.jpg)  
