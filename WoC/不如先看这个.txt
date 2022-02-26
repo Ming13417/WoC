@@ -43,3 +43,4 @@ api网址:https://www.visualcrossing.com/weather-api;<br>
 2.修复了首页ico文件无法显示的bug;<br>
 3.为md文件图片添加了描述;<br>
 <br><br><br>
+![安和古雷亚](https://github.com/Ming13417/WoC/blob/main/WoC/%E3%82%A2%E3%83%B3%E3%81%A8%E3%82%B0%E3%83%AC%E3%82%A2.jpg)  
