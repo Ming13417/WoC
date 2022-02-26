@@ -38,7 +38,7 @@ api网址:https://www.visualcrossing.com/weather-api;<br>
 4.因为反复输入导致控制台被填满(划掉)<br>
 <br>
 <br>
-##_2022年2月26日<br>
+##_2022年2月26日_<br>
 1.修复了「README」.md」文件日期的错误的bug;<br>
 2.修复了首页ico文件无法显示的bug;<br>
 3.为md文件图片添加了描述;<br>
